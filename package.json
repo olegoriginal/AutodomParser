@@ -1,0 +1,17 @@
+{
+  "name": "autodom-pricelist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleg Omelchenko <olegoriginal@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "http": "0.0.1-security",
+    "puppeteer": "^13.0.1",
+    "xlsx": "^0.17.4"
+  }
+}
