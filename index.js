@@ -7,7 +7,7 @@ const XLSX = require("xlsx");
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto("http://kerchshina.com/admin/import/convert_tyres");
+  await page.goto(`${process.env.WEBSITE}/admin/import/convert_tyres`);
   await page.type("input[id=AdministratorUsername]", process.env.LOGIN, {
     delay: 0,
   });
